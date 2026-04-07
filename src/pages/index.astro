@@ -24,7 +24,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
   <main id="main-content" data-layout="index" class="app-layout">
     <section id="hero" class:list={["pt-8 pb-6", "border-b border-border"]}>
       <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
-        Mingalaba
+        Hello, World! 🖖
       </h1>
       <a
         target="_blank"
@@ -42,19 +42,23 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       </a>
 
       <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+        欢迎来到我的极客荒岛。这里主要记录一个碳基生物在 0 和 1 组成的数字海洋里挣扎、学习和成长的碎片。
       </p>
       <p class="mt-2">
-        Read the blog posts or check
+        <b>防杠声明：</b>本博客所有观点均由我的猫审核，如不满意请向它反馈（前提是它还没睡着）。
+        你可以阅读我的
         <LinkButton
           class="underline decoration-dashed underline-offset-4 hover:text-accent"
-          href="https://github.com/satnaing/astro-paper#readme"
+          href="/posts/"
         >
-          README
-        </LinkButton> for more info.
+          学习笔记
+        </LinkButton> 或者去
+        <LinkButton
+          class="underline decoration-dashed underline-offset-4 hover:text-accent"
+          href="/about/"
+        >
+          关于页面
+        </LinkButton> 看看我是如何把咖啡转化为代码的。
       </p>
       {
         // only display if at least one social link is enabled

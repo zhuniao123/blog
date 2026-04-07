@@ -1,37 +1,31 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "关于我：这个博客的主人"
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+## 🔍 系统信息
 
-![Astro Paper](public/astropaper-og.jpg)
+- **名称**: zhuniao123 (碳基版本 1.0)
+- **职业**: 咖啡转化为代码的编译器
+- **内核**: 充满好奇心 & 偶尔宕机
+- **状态**: 正在运行中... (Uptime: 20+ 年)
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+## 🛠️ 我的技能栈 (或者说我 Ctrl+C 的领域)
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+- **前端**: 能看懂 HTML，且能通过 F12 假装自己在调试。
+- **后端**: 主要是研究如何不让服务器爆炸。
+- **AI**: 擅长向 AI 提问并对结果表示惊讶。
+- **生活**: 精通外卖点餐、熬夜和在 Google 搜索简单的语法。
 
-## Features
+## 📜 博客宣言
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+这个博客的建立初衷是为了防止我 3 天后忘记今天学了什么。
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+如果这里的某篇文章帮到了你，那纯属巧合（开玩笑的，希望能帮到你）。如果没帮到你，那一定是因为我的猫在审核时把关键部分删掉了。
 
-and so much more.
+## ☕ 社交与联系
 
-## Show your support
+你可以通过页面底部的图标找到我。或者，如果你在某个午夜的 Stack Overflow 评论区看到一个正在求救的灵魂，那很有可能就是我。
 
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
-
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+---
+> "There are only 10 types of people in the world: those who understand binary, and those who don't."
