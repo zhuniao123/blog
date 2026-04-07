@@ -1,6 +1,6 @@
 ---
 title: 我如何用 0 行代码开发出了这个博客（其实是 AI 写的）
-author: zhuniao123
+author: 边缘观测者
 pubDatetime: 2026-04-07T14:00:00Z
 slug: hello-ai-world
 featured: true
@@ -14,7 +14,7 @@ description: 关于我是如何躺平并让 AI 帮我装修博客的实录。
 
 ## 🚀 欢迎来到自动化时代
 
-大家好，我是 zhuniao123。当你看到这篇文章时，我可能正在喝咖啡，而我的博客正在自动运行。
+大家好，我是 边缘观测者。当你看到这篇文章时，我可能正在喝咖啡，而我的博客正在自动运行。
 
 ### 为什么选择 AstroPaper？
 

@@ -1,6 +1,6 @@
 ---
 title: 终极对比：我的 AI 助手和我的猫，谁是更强的代码审核员？
-author: zhuniao123
+author: 边缘观测者
 pubDatetime: 2026-04-07T14:20:00Z
 slug: ai-vs-cat-reviewer
 featured: true

@@ -1,9 +1,9 @@
 export const SITE = {
   website: "https://blog.lazyoldlearner.win/",
-  author: "zhuniao123",
-  profile: "https://github.com/zhuniao123",
-  desc: "正在通过 127.0.0.1 观察宇宙。本博客由 10% 的代码和 90% 的 Stack Overflow 组成。",
-  title: "Zhuniao's Geek Space",
+  author: "EdgeObserver",
+  profile: "https://github.com/EdgeObserver",
+  desc: "不逐流，不盲从。在代码的边缘，观察世界的本质。",
+  title: "边缘观测者的极客边境",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,

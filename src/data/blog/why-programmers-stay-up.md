@@ -1,6 +1,6 @@
 ---
 title: 为什么程序员总是在深夜最兴奋？（附灵魂图鉴）
-author: zhuniao123
+author: 边缘观测者
 pubDatetime: 2026-04-07T14:10:00Z
 slug: why-programmers-stay-up
 featured: true
