@@ -1,7 +1,7 @@
 ---
 title: 我如何用 0 行代码开发出了这个博客（其实是 AI 写的）
 author: 边缘观测者
-pubDatetime: 2026-04-07T14:00:00Z
+pubDatetime: 2026-04-07T05:00:00Z
 slug: hello-ai-world
 featured: true
 draft: false

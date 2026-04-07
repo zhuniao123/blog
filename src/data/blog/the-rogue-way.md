@@ -1,7 +1,7 @@
 ---
 title: “野路子”万岁：那些官方文档从不提及的救命绝招
 author: 边缘观测者
-pubDatetime: 2026-04-07T15:00:00Z
+pubDatetime: 2026-04-07T05:00:00Z
 slug: the-rogue-way
 featured: true
 draft: false

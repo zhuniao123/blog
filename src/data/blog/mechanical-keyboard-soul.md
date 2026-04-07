@@ -1,7 +1,7 @@
 ---
 title: 机械键盘玄学：为什么程序员对那种“哒哒哒”的声音上瘾？
 author: 边缘观测者
-pubDatetime: 2026-04-07T14:25:00Z
+pubDatetime: 2026-04-07T05:00:00Z
 slug: mechanical-keyboard-soul
 featured: true
 draft: false
