@@ -5,7 +5,9 @@ import sitemap from '@astrojs/sitemap';
 import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
+const site = process.env.SITE_URL ?? 'https://your-project.pages.dev';
+
 export default defineConfig({
-	site: 'https://example.com',
+	site,
 	integrations: [mdx(), sitemap()],
 });

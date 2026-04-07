@@ -13,7 +13,7 @@ const posts = (await getCollection('blog')).sort(
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 		<style>
@@ -84,11 +84,18 @@ const posts = (await getCollection('blog')).sort(
 					font-size: 1.563em;
 				}
 			}
+			.intro {
+				margin-bottom: 1.2rem;
+			}
 		</style>
 	</head>
 	<body>
 		<Header />
 		<main>
+			<section class="intro">
+				<h1>全部文章</h1>
+				<p>按发布时间倒序排列。</p>
+			</section>
 			<section>
 				<ul>
 					{
