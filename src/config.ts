@@ -1,5 +1,5 @@
 export const SITE = {
-  website: "https://blog.zhuniao123.com/", // 建议之后根据你的 CF 域名修改
+  website: "https://blog.lazyoldlearner.win/",
   author: "zhuniao123",
   profile: "https://github.com/zhuniao123",
   desc: "正在通过 127.0.0.1 观察宇宙。本博客由 10% 的代码和 90% 的 Stack Overflow 组成。",
