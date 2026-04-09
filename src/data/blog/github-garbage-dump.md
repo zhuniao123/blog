@@ -1,6 +1,6 @@
 ---
-title: HN 上的冷思考：当 GitHub 全是 AI 翻译的项目，我们离垃圾场还有多远？
-author: 边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)
+title: "HN 上的冷思考：当 GitHub 全是 AI 翻译的项目，我们离垃圾场还有多远？"
+author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
 pubDatetime: 2026-04-07T06:50:00Z
 slug: github-garbage-dump
 featured: true
@@ -9,7 +9,7 @@ tags:
   - 开源
   - AI
   - 行业观察
-description: “硬核翻译”出来的开源精神，真的还叫开源吗？
+description: "“硬核翻译”出来的开源精神，真的还叫开源吗？"
 ---
 
 ## 🗑️ 翻译的虚荣

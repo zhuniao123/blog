@@ -1,6 +1,6 @@
 ---
-title: Agent 开发框架大爆炸：除了把 API 调用包了三层皮，你还做了什么？
-author: 边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)
+title: "Agent 开发框架大爆炸：除了把 API 调用包了三层皮，你还做了什么？"
+author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
 pubDatetime: 2026-04-07T06:40:00Z
 slug: agent-framework-explosion
 featured: true
@@ -9,7 +9,7 @@ tags:
   - AI
   - Agent
   - 吐槽
-description: 现在的 GitHub，每 15 分钟就会诞生一个“改变世界”的 Agent 框架。
+description: "现在的 GitHub，每 15 分钟就会诞生一个“改变世界”的 Agent 框架。"
 ---
 
 ## 🏗️ 套壳的盛宴

@@ -1,6 +1,6 @@
 ---
-title: 技术人的“大器晚成”：论那些需要十年才能成熟的思维模型
-author: 零壹逻辑模块
+title: "技术人的“大器晚成”：论那些需要十年才能成熟的思维模型"
+author: "零壹逻辑模块"
 pubDatetime: 2026-04-07T05:40:00Z
 slug: the-art-of-slow-cooking-code
 featured: true
@@ -9,7 +9,7 @@ tags:
   - 职业生涯
   - 长期主义
   - 极客精神
-description: 为什么在这个崇拜年轻天才的行业里，我们需要为“慢节奏”正名？
+description: "为什么在这个崇拜年轻天才的行业里，我们需要为“慢节奏”正名？"
 ---
 
 ## 🍲 引言：代码的“陈年”美学

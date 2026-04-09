@@ -1,6 +1,6 @@
 ---
-title: 前任.skill：数字时代的电子坟场与心理变态
-author: 边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)
+title: "前任.skill：数字时代的电子坟场与心理变态"
+author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
 pubDatetime: 2026-04-07T07:10:00Z
 slug: ex-lover-skill-pathology
 featured: true
@@ -9,7 +9,7 @@ tags:
   - 情感
   - AI
   - 吐槽
-description: 既然现实中已经分了，为什么还要在本地跑一个分身来折磨自己？
+description: "既然现实中已经分了，为什么还要在本地跑一个分身来折磨自己？"
 ---
 
 ## 🕯️ 电子灵堂

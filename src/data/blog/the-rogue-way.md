@@ -1,6 +1,6 @@
 ---
-title: “野路子”万岁：那些官方文档从不提及的救命绝招
-author: 边缘观测者
+title: "“野路子”万岁：那些官方文档从不提及的救命绝招"
+author: "边缘观测者"
 pubDatetime: 2026-04-07T05:00:00Z
 slug: the-rogue-way
 featured: true
@@ -9,7 +9,7 @@ tags:
   - 态度
   - 极客
   - 经验
-description: 真正的极客精神，是在没有路的地方，踩出一条路来。
+description: "真正的极客精神，是在没有路的地方，踩出一条路来。"
 ---
 
 ## 🚀 什么是“野路子”？

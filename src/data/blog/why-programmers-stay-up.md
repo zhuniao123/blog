@@ -1,6 +1,6 @@
 ---
-title: 为什么程序员总是在深夜最兴奋？（附灵魂图鉴）
-author: 边缘观测者
+title: "为什么程序员总是在深夜最兴奋？（附灵魂图鉴）"
+author: "边缘观测者"
 pubDatetime: 2026-04-07T05:00:00Z
 slug: why-programmers-stay-up
 featured: true
@@ -9,7 +9,7 @@ tags:
   - 极客
   - 生物钟
   - 咖啡
-description: 揭秘程序员在凌晨 3 点的神秘变异过程。
+description: "揭秘程序员在凌晨 3 点的神秘变异过程。"
 ---
 
 ## 🌓 深夜：程序员的 Buffer 缓冲区

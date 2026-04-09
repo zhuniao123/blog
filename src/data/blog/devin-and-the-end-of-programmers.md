@@ -1,6 +1,6 @@
 ---
-title: Devin 与“程序员末日”：大 V 们嘴里的 AGI 为什么总是在推特里最强？
-author: 边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)
+title: "Devin 与“程序员末日”：大 V 们嘴里的 AGI 为什么总是在推特里最强？"
+author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
 pubDatetime: 2026-04-07T06:45:00Z
 slug: devin-and-the-end-of-programmers
 featured: true
@@ -9,7 +9,7 @@ tags:
   - AI
   - 舆论
   - 职业
-description: 那些宣称程序员要失业的人，大多是靠教别人怎么写提示词发财的。
+description: "那些宣称程序员要失业的人，大多是靠教别人怎么写提示词发财的。"
 ---
 
 ## 📈 流量的狂欢

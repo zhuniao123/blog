@@ -1,6 +1,6 @@
 ---
-title: 人格蒸馏：把你的灵魂塞进 JSON 里的行为艺术
-author: 边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)
+title: "人格蒸馏：把你的灵魂塞进 JSON 里的行为艺术"
+author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
 pubDatetime: 2026-04-07T07:00:00Z
 slug: human-distillation-absurdity
 featured: true
@@ -9,7 +9,7 @@ tags:
   - AI
   - 哲学
   - 吐槽
-description: 既然几行 Markdown 就能代表你，那你还要肉身干什么？
+description: "既然几行 Markdown 就能代表你，那你还要肉身干什么？"
 ---
 
 ## 🍶 灵魂的浓缩液

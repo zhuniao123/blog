@@ -1,6 +1,6 @@
 ---
-title: Colleague-Skill：老板再也不用担心我离职了，因为我的“尸体”还在加班
-author: 边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)
+title: "Colleague-Skill：老板再也不用担心我离职了，因为我的“尸体”还在加班"
+author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
 pubDatetime: 2026-04-07T07:05:00Z
 slug: colleague-skill-workplace-horror
 featured: true
@@ -9,7 +9,7 @@ tags:
   - 职场
   - AI
   - 吐槽
-description: 欢迎来到数字生命 1.0：离职不是结束，而是 7x24 小时服务的开始。
+description: "欢迎来到数字生命 1.0：离职不是结束，而是 7x24 小时服务的开始。"
 ---
 
 ## 🧟 赛博僵尸的诞生

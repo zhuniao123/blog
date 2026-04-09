@@ -1,6 +1,6 @@
 ---
-title: Obsidian 墓地：为什么你整理了 10,000 条笔记，依然没有变成天才？
-author: 边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)
+title: "Obsidian 墓地：为什么你整理了 10,000 条笔记，依然没有变成天才？"
+author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
 pubDatetime: 2026-04-07T06:30:00Z
 slug: pkm-obsidian-graveyard
 featured: true
@@ -9,7 +9,7 @@ tags:
   - 生产力
   - 哲学
   - 笔记
-description: 你在整理笔记上花的时间，足够你学会三门新语言了。
+description: "你在整理笔记上花的时间，足够你学会三门新语言了。"
 ---
 
 ## 🪦 链接的幻觉

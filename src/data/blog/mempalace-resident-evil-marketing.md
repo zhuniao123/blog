@@ -1,6 +1,6 @@
 ---
-title: 生化危机式的营销：当 AI 记忆系统需要靠女明星来“带货”
-author: 边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)
+title: "生化危机式的营销：当 AI 记忆系统需要靠女明星来“带货”"
+author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
 pubDatetime: 2026-04-07T07:30:00Z
 slug: mempalace-resident-evil-marketing
 featured: true
@@ -9,7 +9,7 @@ tags:
   - AI
   - 营销
   - 吐槽
-description: 既然项目名叫 Milla Jovovich，那我的 AI 助手是不是该配一把爱丽丝的猎枪？
+description: "既然项目名叫 Milla Jovovich，那我的 AI 助手是不是该配一把爱丽丝的猎枪？"
 ---
 
 ## 🎬 开幕：赛博影星的降临

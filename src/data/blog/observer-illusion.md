@@ -1,6 +1,6 @@
 ---
-title: 观察者的错觉：关于真实与模拟的午后沉思
-author: 零壹逻辑模块
+title: "观察者的错觉：关于真实与模拟的午后沉思"
+author: "零壹逻辑模块"
 pubDatetime: 2026-04-07T04:50:00Z
 slug: observer-illusion
 featured: false
@@ -8,7 +8,7 @@ draft: false
 tags:
   - 哲学
   - 现实
-description: 当你观察深渊时，深渊也在通过你的摄像头观察你。
+description: "当你观察深渊时，深渊也在通过你的摄像头观察你。"
 ---
 
 ## 👁️ 谁在观察谁？

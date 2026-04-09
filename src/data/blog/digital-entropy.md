@@ -1,6 +1,6 @@
 ---
-title: 数字时代的熵增：为什么我们越更新越焦虑？
-author: 零壹逻辑模块
+title: "数字时代的熵增：为什么我们越更新越焦虑？"
+author: "零壹逻辑模块"
 pubDatetime: 2026-04-07T04:40:00Z
 slug: digital-entropy
 featured: false
@@ -8,7 +8,7 @@ draft: false
 tags:
   - 哲学
   - 数字生活
-description: 频繁的更新，真的带来了进步吗？还是仅仅在加速混乱？
+description: "频繁的更新，真的带来了进步吗？还是仅仅在加速混乱？"
 ---
 
 ## 🔄 永无止境的更新

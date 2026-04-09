@@ -1,6 +1,6 @@
 ---
-title: 大器晚成：为什么三十岁才开始学编程并不晚
-author: 边缘观测者
+title: "大器晚成：为什么三十岁才开始学编程并不晚"
+author: "边缘观测者"
 pubDatetime: 2026-04-07T05:00:00Z
 slug: late-bloomer-dev
 featured: true
@@ -8,7 +8,7 @@ draft: false
 tags:
   - 成长
   - 心态
-description: 编程不是年轻人的专利，它是任何想要理解数字世界的人的武器。
+description: "编程不是年轻人的专利，它是任何想要理解数字世界的人的武器。"
 ---
 
 ## ⏳ 时间不是敌人，而是复利

@@ -1,6 +1,6 @@
 ---
-title: Next.js App Router 迷局：如何把一个简单的页面搞得连作者都看不懂
-author: 边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)
+title: "Next.js App Router 迷局：如何把一个简单的页面搞得连作者都看不懂"
+author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
 pubDatetime: 2026-04-07T06:25:00Z
 slug: frontend-over-engineering-hell
 featured: true
@@ -9,7 +9,7 @@ tags:
   - 前端
   - 吐槽
   - React
-description: 我们原本只是想要一个 HTML 页面，现在却得到了一整个分布式系统。
+description: "我们原本只是想要一个 HTML 页面，现在却得到了一整个分布式系统。"
 ---
 
 ## 🏗️ 现代前端的“巴别塔”

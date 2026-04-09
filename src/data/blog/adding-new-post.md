@@ -1,8 +1,8 @@
 ---
-author: Sat Naing
+author: "Sat Naing"
 pubDatetime: 2022-09-23T15:22:00Z
 modDatetime: 2025-06-13T16:52:45.934Z
-title: Adding new posts in AstroPaper theme
+title: "Adding new posts in AstroPaper theme"
 slug: adding-new-posts-in-astropaper-theme
 featured: true
 draft: false
@@ -102,8 +102,8 @@ Here is the sample frontmatter for a post.
 
 ```yaml file="src/data/blog/sample-post.md"
 ---
-title: The title of the post
-author: your name
+title: "The title of the post"
+author: "your name"
 pubDatetime: 2022-09-21T05:17:19Z
 slug: the-title-of-the-post
 featured: true
@@ -114,7 +114,7 @@ tags:
   - tags
 ogImage: ../../assets/images/example.png # src/assets/images/example.png
 # ogImage: "https://example.org/remote-image.png" # remote URL
-description: This is the example description of the example post.
+description: "This is the example description of the example post."
 canonicalURL: https://example.org/my-article-was-already-posted-here
 ---
 ```

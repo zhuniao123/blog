@@ -1,6 +1,6 @@
 ---
-title: 提示词工程：在硅基生命面前跳大神
-author: 边缘观测者
+title: "提示词工程：在硅基生命面前跳大神"
+author: "边缘观测者"
 pubDatetime: 2026-04-07T06:05:00Z
 slug: prompt-engineer-delusion
 featured: true
@@ -9,7 +9,7 @@ tags:
   - 嘲讽
   - AI
   - 极客
-description: 只要我咒语念得够好，代码它自己就能跑。
+description: "只要我咒语念得够好，代码它自己就能跑。"
 ---
 
 ## 🧙‍♂️ 数字巫师

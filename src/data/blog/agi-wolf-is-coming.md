@@ -1,6 +1,6 @@
 ---
-title: AGI 的“狼来了”：为什么下个月永远是通用人工智能元年？
-author: 边缘观测者
+title: "AGI 的“狼来了”：为什么下个月永远是通用人工智能元年？"
+author: "边缘观测者"
 pubDatetime: 2026-04-07T06:00:00Z
 slug: agi-wolf-is-coming
 featured: true
@@ -9,7 +9,7 @@ tags:
   - 嘲讽
   - AI
   - 行业观察
-description: 既然 AGI 都要来了，那我的 Bug 是不是可以不用修了？
+description: "既然 AGI 都要来了，那我的 Bug 是不是可以不用修了？"
 ---
 
 ## 📅 永恒的“下个月”

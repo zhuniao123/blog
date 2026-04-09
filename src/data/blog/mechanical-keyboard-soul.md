@@ -1,6 +1,6 @@
 ---
-title: 机械键盘玄学：为什么程序员对那种“哒哒哒”的声音上瘾？
-author: 边缘观测者
+title: "机械键盘玄学：为什么程序员对那种“哒哒哒”的声音上瘾？"
+author: "边缘观测者"
 pubDatetime: 2026-04-07T05:00:00Z
 slug: mechanical-keyboard-soul
 featured: true
@@ -9,7 +9,7 @@ tags:
   - 硬件
   - 极客
   - 机械键盘
-description: 如果敲代码没有声音，那和咸鱼有什么区别？
+description: "如果敲代码没有声音，那和咸鱼有什么区别？"
 ---
 
 ## ⌨️ 键盘是极客的佩剑

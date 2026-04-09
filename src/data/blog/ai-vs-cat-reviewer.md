@@ -1,6 +1,6 @@
 ---
-title: 终极对比：我的 AI 助手和我的猫，谁是更强的代码审核员？
-author: 边缘观测者
+title: "终极对比：我的 AI 助手和我的猫，谁是更强的代码审核员？"
+author: "边缘观测者"
 pubDatetime: 2026-04-07T05:00:00Z
 slug: ai-vs-cat-reviewer
 featured: true
@@ -9,7 +9,7 @@ tags:
   - AI
   - 萌宠
   - 生产力
-description: 经过 7 天的实测，我得到了一个令人震惊的结论。
+description: "经过 7 天的实测，我得到了一个令人震惊的结论。"
 ---
 
 ## 🥊 选手介绍

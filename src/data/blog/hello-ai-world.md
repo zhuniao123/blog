@@ -1,6 +1,6 @@
 ---
-title: 我如何用 0 行代码开发出了这个博客（其实是 AI 写的）
-author: 边缘观测者
+title: "我如何用 0 行代码开发出了这个博客（其实是 AI 写的）"
+author: "边缘观测者"
 pubDatetime: 2026-04-07T05:00:00Z
 slug: hello-ai-world
 featured: true
@@ -9,7 +9,7 @@ tags:
   - 极客
   - AI
   - 搞怪
-description: 关于我是如何躺平并让 AI 帮我装修博客的实录。
+description: "关于我是如何躺平并让 AI 帮我装修博客的实录。"
 ---
 
 ## 🚀 欢迎来到自动化时代

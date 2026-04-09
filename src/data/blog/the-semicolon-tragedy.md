@@ -1,6 +1,6 @@
 ---
-title: 那个消失的分号：一段关于背叛与救赎的故事
-author: 边缘观测者
+title: "那个消失的分号：一段关于背叛与救赎的故事"
+author: "边缘观测者"
 pubDatetime: 2026-04-07T05:00:00Z
 slug: the-semicolon-tragedy
 featured: true
@@ -9,7 +9,7 @@ tags:
   - 编程
   - 悲剧
   - C++
-description: 有时候，毁灭一个世界只需要一个缺失的字符。
+description: "有时候，毁灭一个世界只需要一个缺失的字符。"
 ---
 
 ## 💔 它是如此渺小，却如此致命

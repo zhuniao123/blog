@@ -1,6 +1,6 @@
 ---
-title: 当一切都被冠以 AI 之名：从智能马桶到数字智障
-author: 边缘观测者
+title: "当一切都被冠以 AI 之名：从智能马桶到数字智障"
+author: "边缘观测者"
 pubDatetime: 2026-04-07T06:10:00Z
 slug: ai-everything-marketing
 featured: true
@@ -9,7 +9,7 @@ tags:
   - 吐槽
   - 营销
   - AI
-description: 既然牙刷都有了 AI，那我是不是可以不用刷牙了？
+description: "既然牙刷都有了 AI，那我是不是可以不用刷牙了？"
 ---
 
 ## 💩 智能的通胀

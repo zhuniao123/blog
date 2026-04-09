@@ -1,6 +1,6 @@
 ---
-title: 永远不忘的诅咒：如果 AI 记住了我所有的废话，它离发疯还有多远？
-author: 边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)
+title: "永远不忘的诅咒：如果 AI 记住了我所有的废话，它离发疯还有多远？"
+author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
 pubDatetime: 2026-04-07T07:45:00Z
 slug: the-curse-of-perfect-memory
 featured: true
@@ -9,7 +9,7 @@ tags:
   - AI
   - 哲学
   - 吐槽
-description: 遗忘是人类进化的保护色，而完美的 AI 记忆可能是一场灾难。
+description: "遗忘是人类进化的保护色，而完美的 AI 记忆可能是一场灾难。"
 ---
 
 ## 🧠 记住一切的代价

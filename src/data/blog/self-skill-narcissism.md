@@ -1,6 +1,6 @@
 ---
-title: 自己.skill：自恋的极致是跟自己的镜像吵架
-author: 边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)
+title: "自己.skill：自恋的极致是跟自己的镜像吵架"
+author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
 pubDatetime: 2026-04-07T07:15:00Z
 slug: self-skill-narcissism
 featured: true
@@ -9,7 +9,7 @@ tags:
   - 自恋
   - 哲学
   - AI
-description: 恭喜你，你终于把自己变成了一个可以被调用的函数。
+description: "恭喜你，你终于把自己变成了一个可以被调用的函数。"
 ---
 
 ## 🪞 赛博纳西索斯

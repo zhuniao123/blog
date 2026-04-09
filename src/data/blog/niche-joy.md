@@ -1,6 +1,6 @@
 ---
-title: 孤独的利基：在小众领域深耕是一种什么样的体验
-author: 边缘观测者
+title: "孤独的利基：在小众领域深耕是一种什么样的体验"
+author: "边缘观测者"
 pubDatetime: 2026-04-07T05:00:00Z
 slug: niche-joy
 featured: true
@@ -8,7 +8,7 @@ draft: false
 tags:
   - 态度
   - 极客
-description: 当所有人都在追逐风口时，我选择在山谷里开荒。
+description: "当所有人都在追逐风口时，我选择在山谷里开荒。"
 ---
 
 ## ⛰️ 边缘的风景更美
