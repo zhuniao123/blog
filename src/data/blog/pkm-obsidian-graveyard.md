@@ -1,7 +1,7 @@
 ---
 title: "Obsidian 墓地：为什么你整理了 10,000 条笔记，依然没有变成天才？"
 author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
-pubDatetime: 2026-04-07T06:30:00Z
+pubDatetime: 2026-04-02T08:30:00Z
 slug: pkm-obsidian-graveyard
 featured: true
 draft: false

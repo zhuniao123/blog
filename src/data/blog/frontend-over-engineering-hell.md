@@ -1,7 +1,7 @@
 ---
 title: "Next.js App Router 迷局：如何把一个简单的页面搞得连作者都看不懂"
 author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
-pubDatetime: 2026-04-07T06:25:00Z
+pubDatetime: 2026-04-01T10:25:00Z
 slug: frontend-over-engineering-hell
 featured: true
 draft: false

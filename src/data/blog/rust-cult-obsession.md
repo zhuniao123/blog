@@ -1,7 +1,7 @@
 ---
 title: "Rust 教派：如果不把所有东西用 Rust 重写一遍，你还算安全吗？"
 author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
-pubDatetime: 2026-04-07T06:20:00Z
+pubDatetime: 2026-04-01T06:20:00Z
 slug: rust-cult-obsession
 featured: true
 draft: false
