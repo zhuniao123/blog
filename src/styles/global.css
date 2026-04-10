@@ -73,6 +73,31 @@ html[data-theme="dark"] {
   @apply mx-auto w-full max-w-app px-4;
 }
 
+.top-nav-shell {
+  background: linear-gradient(
+    to bottom,
+    color-mix(in srgb, var(--background) 74%, transparent),
+    color-mix(in srgb, var(--background) 18%, transparent)
+  );
+  backdrop-filter: blur(12px);
+}
+
+.top-nav-shell::after {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  bottom: 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    color-mix(in srgb, var(--border) 30%, transparent) 14%,
+    color-mix(in srgb, var(--accent) 12%, var(--border)) 50%,
+    color-mix(in srgb, var(--border) 30%, transparent) 86%,
+    transparent 100%
+  );
+}
+
 .active-nav {
   @apply underline decoration-wavy decoration-2 underline-offset-8;
 }
