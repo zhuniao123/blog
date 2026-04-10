@@ -1,7 +1,7 @@
 ---
 title: "Naval.skill：在无需许可的时代，AI 是你的杠杆还是你的枷锁？"
 author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
-pubDatetime: "2026-04-09T11:21:05Z"
+pubDatetime: 2026-04-09T11:21:05Z
 slug: naval-skill-leveraged-freedom
 featured: true
 draft: false

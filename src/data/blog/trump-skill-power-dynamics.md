@@ -1,7 +1,7 @@
 ---
 title: "Trump.skill 与谈判的灰产：用 AI 复刻权力的傲慢"
 author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
-pubDatetime: "2026-04-09T11:20:05Z"
+pubDatetime: 2026-04-09T11:20:05Z
 slug: trump-skill-power-dynamics
 featured: true
 draft: false

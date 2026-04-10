@@ -57,7 +57,7 @@ Thus, to choose an initial color scheme instead of prefers-color-scheme, we have
 ```ts file="src/scripts/theme.ts"
 // Initial color scheme
 // Can be "light", "dark", or empty string for system's prefers-color-scheme
-const initialColorScheme = ""; // "light" | "dark" // [!code hl]
+const initialColorScheme = "; // "light" | "dark" // [!code hl]
 
 function getPreferTheme(): string {
   // get theme data from local storage (user's explicit choice)
@@ -78,7 +78,7 @@ function getPreferTheme(): string {
 
 The **initialColorScheme** variable can hold two values\_ `"light"`, `"dark"`. You can leave the empty string (default) if you don't want to specify an initial color scheme.
 
-- `""` - system's prefers-color-scheme. (default)
+- `"` - system's prefers-color-scheme. (default)
 - `"light"` - use light mode as initial color scheme.
 - `"dark"` - use dark mode as initial color scheme.
 

@@ -1,7 +1,7 @@
 ---
 title: "芒格与塔勒布的赛博转世：当智慧被提炼为算法，你还愿意思考吗？"
 author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
-pubDatetime: "2026-04-09T11:22:05Z"
+pubDatetime: 2026-04-09T11:22:05Z
 slug: munger-taleb-cyber-reincarnation
 featured: true
 draft: false

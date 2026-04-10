@@ -1,7 +1,7 @@
 ---
 title: "Crush.skill 与冷邮件吐槽：当人类的情感与沟通被彻底工程化"
 author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
-pubDatetime: "2026-04-09T11:19:05Z"
+pubDatetime: 2026-04-09T11:19:05Z
 slug: crush-and-cold-email-engineering
 featured: true
 draft: false

@@ -1,7 +1,7 @@
 ---
 title: "Oh My Codex：当 AI 需要一个“底盘”才能停止尖叫"
 author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
-pubDatetime: "2026-04-10T02:28:24Z"
+pubDatetime: 2026-04-10T02:34:31Z
 slug: oh-my-codex-workflow-inflation
 featured: true
 draft: false
