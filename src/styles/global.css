@@ -5,23 +5,26 @@
 
 :root,
 html[data-theme="light"] {
-  --background: #fdfdfd;
-  --foreground: #282728;
-  --accent: #006cac;
-  --muted: #e6e6e6;
-  --border: #ece9e9;
+  --background: #faf6ef;
+  --foreground: #1f2937;
+  --accent: #0f766e;
+  --muted: #e8e0d3;
+  --border: #d8cebf;
 }
 
 html[data-theme="dark"] {
-  --background: #212737;
-  --foreground: #eaedf3;
-  --accent: #ff6b01;
-  --muted: #343f60;
-  --border: #ab4b08;
+  --background: #111827;
+  --foreground: #e5e7eb;
+  --accent: #f59e0b;
+  --muted: #253247;
+  --border: #3b475d;
 }
 
 @theme inline {
-  --font-app: var(--font-google-sans-code);
+  --font-app: var(--font-plus-jakarta), "PingFang SC", "Noto Sans CJK SC",
+    "Microsoft YaHei", sans-serif;
+  --font-heading: "Source Han Serif SC", "Noto Serif SC", "Songti SC",
+    "STSong", serif;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-accent: var(--accent);
@@ -40,6 +43,17 @@ html[data-theme="dark"] {
   }
   body {
     @apply flex min-h-svh flex-col bg-background font-app text-foreground selection:bg-accent/75 selection:text-background;
+    background-image: radial-gradient(
+        circle at 10% 0%,
+        color-mix(in srgb, var(--accent) 11%, transparent),
+        transparent 42%
+      ),
+      radial-gradient(
+        circle at 85% 100%,
+        color-mix(in srgb, var(--accent) 9%, transparent),
+        transparent 38%
+      );
+    background-attachment: fixed;
   }
   a,
   button {
@@ -61,6 +75,14 @@ html[data-theme="dark"] {
 
 .active-nav {
   @apply underline decoration-wavy decoration-2 underline-offset-8;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-heading);
+  letter-spacing: 0.01em;
 }
 
 /* Source: https://piccalil.li/blog/a-more-modern-css-reset/ */

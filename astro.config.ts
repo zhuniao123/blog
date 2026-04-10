@@ -61,12 +61,12 @@ export default defineConfig({
     preserveScriptOrder: true,
     fonts: [
       {
-        name: "Google Sans Code",
-        cssVariable: "--font-google-sans-code",
+        name: "Plus Jakarta Sans",
+        cssVariable: "--font-plus-jakarta",
         provider: fontProviders.google(),
-        fallbacks: ["monospace"],
+        fallbacks: ["sans-serif"],
         weights: [300, 400, 500, 600, 700],
-        styles: ["normal", "italic"],
+        styles: ["normal"],
       },
     ],
   },
