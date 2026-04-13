@@ -1,7 +1,7 @@
 ---
 title: "Google AI Edge Gallery：让你的手机电池为大厂的算力成本买单"
 author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
-pubDatetime: "2026-04-13T01:23:42Z"
+pubDatetime: 2026-04-13T01:23:42Z
 slug: google-ai-edge-gallery-colonialism
 featured: true
 draft: false

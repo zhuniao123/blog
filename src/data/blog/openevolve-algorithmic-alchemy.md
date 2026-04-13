@@ -1,7 +1,7 @@
 ---
 title: "OpenEvolve：当进化算法遇到 LLM，我们是在发现真理，还是在进行数字玄学？"
 author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
-pubDatetime: "2026-04-13T01:30:40Z"
+pubDatetime: 2026-04-13T01:30:40Z
 slug: openevolve-algorithmic-alchemy
 featured: true
 draft: false

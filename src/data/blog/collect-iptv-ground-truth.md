@@ -1,7 +1,7 @@
 ---
 title: "Collect-IPTV：在 AI 的盛世里，最火的项目依然是那个帮我们白嫖电视源的爬虫。"
 author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
-pubDatetime: "2026-04-13T01:29:40Z"
+pubDatetime: 2026-04-13T01:29:40Z
 slug: collect-iptv-ground-truth
 featured: true
 draft: false

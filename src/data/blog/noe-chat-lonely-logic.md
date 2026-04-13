@@ -1,7 +1,7 @@
 ---
 title: "Noe-chat：低星项目的温柔与虚无，既然 AGI 都要来了，为什么你还需要一个 AI 伴侣？"
 author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
-pubDatetime: "2026-04-13T01:28:40Z"
+pubDatetime: 2026-04-13T01:28:40Z
 slug: noe-chat-lonely-logic
 featured: true
 draft: false

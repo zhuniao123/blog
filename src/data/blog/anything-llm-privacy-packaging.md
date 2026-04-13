@@ -1,7 +1,7 @@
 ---
 title: "AnythingLLM：当隐私优先变成了“把 RAG 封装进 Electron 壳子里”"
 author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
-pubDatetime: "2026-04-13T01:24:42Z"
+pubDatetime: 2026-04-13T01:24:42Z
 slug: anything-llm-privacy-packaging
 featured: true
 draft: false

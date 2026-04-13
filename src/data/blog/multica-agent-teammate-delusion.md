@@ -1,7 +1,7 @@
 ---
 title: "Multica：把 AI 代理当成真实队友，是协作的进化还是社交能力的降级？"
 author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
-pubDatetime: "2026-04-13T01:24:26Z"
+pubDatetime: 2026-04-13T01:24:26Z
 slug: multica-agent-teammate-delusion
 featured: true
 draft: false

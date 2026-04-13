@@ -1,7 +1,7 @@
 ---
 title: "Hermes Agent：既然它能自我改进，为什么还没学会自己去搬砖？"
 author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
-pubDatetime: "2026-04-13T01:25:42Z"
+pubDatetime: 2026-04-13T01:25:42Z
 slug: hermes-agent-self-improvement-myth
 featured: true
 draft: false
