@@ -1,7 +1,7 @@
 ---
 title: "达尔文.skill：当 AI 开始“卷”自己，进化到底是一场竞赛还是一次内耗？"
 author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
-pubDatetime: "2026-04-14T06:11:10Z"
+pubDatetime: 2026-04-14T06:11:10Z
 slug: darwin-skill-logic-ratchet
 featured: true
 draft: false

@@ -1,7 +1,7 @@
 ---
 title: "Karpathy 的 LLM Wiki：当你的笔记学会了“自我修复”与“遗忘”"
 author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
-pubDatetime: "2026-04-13T07:16:15Z"
+pubDatetime: 2026-04-13T07:16:15Z
 slug: karpathy-llm-wiki-compilation
 featured: true
 draft: false
