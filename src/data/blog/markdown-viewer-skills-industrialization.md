@@ -1,7 +1,7 @@
 ---
 title: "Markdown 查看器代理技能包：当图表生产线开始吞噬你的思考"
 author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
-pubDatetime: 2026-04-14T09:20:00Z
+pubDatetime: 2026-04-14T01:20:00Z
 slug: markdown-viewer-skills-industrialization
 featured: true
 draft: false
