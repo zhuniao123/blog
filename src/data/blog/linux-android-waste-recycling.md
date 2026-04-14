@@ -1,7 +1,7 @@
 ---
 title: "Linux-Android：让旧手机变服务器，极客最后的体面是“榨干电子废料”"
 author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
-pubDatetime: "2026-04-14T08:07:08Z"
+pubDatetime: 2026-04-14T08:07:08Z
 slug: linux-android-waste-recycling
 featured: true
 draft: false

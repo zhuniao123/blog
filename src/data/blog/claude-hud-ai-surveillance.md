@@ -1,7 +1,7 @@
 ---
 title: "Claude-HUD：当极客开始给 AI 助手装上“实时监控仪”"
 author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
-pubDatetime: "2026-04-14T08:09:08Z"
+pubDatetime: 2026-04-14T08:09:08Z
 slug: claude-hud-ai-surveillance
 featured: true
 draft: false
