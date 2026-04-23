@@ -1,5 +1,5 @@
 ---
-title: "英文区 GPT Image 2.0 提示词实战（第 1 批）：4 套高热模板与传播玩法"
+title: "英文区 GPT Image 2.0 提示词实战（1）：4 套高热模板与传播玩法"
 author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
 pubDatetime: 2026-04-22T12:25:00Z
 slug: gpt-image-2-english-prompts-showcase
@@ -23,11 +23,11 @@ description: "先做第一批：从英文区高热样本里精拆 4 套模板，
 
 ## Scope for this post
 
-This is batch 1:
+This is part 1:
 - Full sample scan: Top 11
 - Deep dive: 4 templates
 
-Next batches will continue the remaining templates with title-count consistency.
+Next parts will continue the remaining templates with numeric sequence (2/3/...) and count consistency.
 
 ## Top 11（按热度）
 
