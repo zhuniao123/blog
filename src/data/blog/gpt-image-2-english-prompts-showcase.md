@@ -1,5 +1,5 @@
 ---
-title: "英文区 GPT Image 2.0 提示词实战：11 条高热模板与传播玩法"
+title: "英文区 GPT Image 2.0 提示词实战（第 1 批）：4 套高热模板与传播玩法"
 author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
 pubDatetime: 2026-04-22T12:25:00Z
 slug: gpt-image-2-english-prompts-showcase
@@ -10,7 +10,7 @@ tags:
   - Prompt
   - GPT-Image-2
   - English Community
-description: "英文区玩法更像增长实验室：短模板做传播，长模板做商业交付。这里给你一份可直接复刻的清单。"
+description: "先做第一批：从英文区高热样本里精拆 4 套模板，聚焦传播与复用。"
 ---
 
 ## 先说结论
@@ -20,6 +20,14 @@ description: "英文区玩法更像增长实验室：短模板做传播，长模
 - 长模板负责高质量交付
 
 换句话说：一个拿流量，一个拿订单。
+
+## Scope for this post
+
+This is batch 1:
+- Full sample scan: Top 11
+- Deep dive: 4 templates
+
+Next batches will continue the remaining templates with title-count consistency.
 
 ## Top 11（按热度）
 
