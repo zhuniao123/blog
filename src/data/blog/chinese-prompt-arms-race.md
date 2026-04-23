@@ -1,7 +1,7 @@
 ---
 title: "中文区的提示词军备竞赛：为什么我们总想用 AI 制造“视觉奇观”？"
 author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
-pubDatetime: "2026-04-23T01:52:57Z"
+pubDatetime: 2026-04-23T01:52:57Z
 slug: chinese-prompt-arms-race
 featured: true
 draft: false

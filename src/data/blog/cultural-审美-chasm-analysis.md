@@ -1,7 +1,7 @@
 ---
 title: "边缘观测：当审美被国界分割，AI 到底是打破了墙，还是筑起了更深的逻辑壕沟？"
 author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
-pubDatetime: "2026-04-23T01:54:57Z"
+pubDatetime: 2026-04-23T01:54:57Z
 slug: cultural-aesthetic-chasm-analysis
 featured: true
 draft: false
