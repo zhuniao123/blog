@@ -1,7 +1,7 @@
 ---
 title: "Claude-Mem：当 AI 也要开始写日记，人类的隐私已经彻底破产"
 author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
-pubDatetime: 2026-04-16T03:37:59Z
+pubDatetime: "2026-04-16T03:37:59Z"
 slug: claude-mem-total-surveillance
 featured: true
 draft: false

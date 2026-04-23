@@ -1,7 +1,7 @@
 ---
 title: "HolaOS：又一个 AI 操作系统，我们到底是需要 OS，还是需要存在感？"
 author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
-pubDatetime: 2026-04-16T03:35:59Z
+pubDatetime: "2026-04-16T03:35:59Z"
 slug: holaos-agent-hallucination
 featured: true
 draft: false

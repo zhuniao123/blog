@@ -1,7 +1,7 @@
 ---
 title: "Get-Shit-Done：如果靠堆砌元提示就能搞定工作，那我们为什么要付钱给程序员？"
 author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
-pubDatetime: 2026-04-16T03:36:59Z
+pubDatetime: "2026-04-16T03:36:59Z"
 slug: get-shit-done-prompt-inflation
 featured: true
 draft: false
