@@ -44,6 +44,9 @@ Haz un póster, un diseño de Stephen Curry fichando por los Dallas Mavericks. N
 
 为什么火：短、狠、可替换人名，复制门槛极低。
 
+样图链接：
+- 原帖媒体： https://x.com/igus_ai/status/2047030997175124052
+
 ### 2) 包装刀版转 3D 商业模板
 
 ```text
@@ -51,6 +54,9 @@ Assemble the dieline into a flawless 3D box with accurate panels, clean folds, u
 ```
 
 为什么火：直接解决设计师“2D 刀版不好展示”的现实问题。
+
+样图链接：
+- 原帖媒体： https://x.com/Salmaaboukarr/status/2047008188285792724
 
 ### 3) 娱乐突发直播模板
 
@@ -60,6 +66,9 @@ selena gomez started a surprise youtube livestream.
 
 为什么火：热点人物 + 突发语义，天然适合社媒传播。
 
+样图链接：
+- 原帖媒体： https://x.com/SelenaGmzIN/status/2047185882009198865
+
 ### 4) 高奢夜景男士大片模板
 
 ```text
@@ -67,6 +76,9 @@ Low-angle full-body cinematic shot at Trocadéro at night, 50mm f/1.4, Eiffel To
 ```
 
 为什么火：参数级细节（镜头/光圈/机位）让“高级感”可控。
+
+样图链接：
+- 原帖媒体： https://x.com/Sheldon056/status/2047157379020861782
 
 ### 5) 复古报纸头版模板
 
@@ -76,6 +88,9 @@ Create a realistic vintage newspaper front page with framed hero photo, bold hea
 
 为什么火：内容创作者直接拿来做封面和剧情感图文。
 
+样图链接：
+- 原帖媒体： https://x.com/Naiknelofar788/status/2047207812800147647
+
 ### 6) 写实人像+车款摄影模板
 
 ```text
@@ -83,6 +98,9 @@ Ultra-realistic DSLR portrait with explicit subject styling, car model details, 
 ```
 
 为什么火：负提示与细节约束结合，降低“AI 味”。
+
+样图链接：
+- 原帖媒体： https://x.com/harboriis/status/2047175250761433416
 
 ### 7) 儿童绘本水彩模板
 
@@ -92,6 +110,9 @@ Soft poetic children's book illustration, watercolor + gouache texture, muted pa
 
 为什么火：教育与插画场景都能吃，风格辨识度高。
 
+样图链接：
+- 原帖媒体： https://x.com/dotey/status/2047174895293849972
+
 ### 8) 胶片街拍模板
 
 ```text
@@ -99,6 +120,9 @@ Ricoh GR3 negative film style, early-20s street portrait, natural skin texture, 
 ```
 
 为什么火：胶片感 + 年代感 + 不露骨审美，商业可用范围广。
+
+样图链接：
+- 原帖媒体： https://x.com/BubbleBrain/status/2047218040694288796
 
 ### 9) 国风月夜插画模板
 
@@ -108,6 +132,9 @@ Song-dynasty landscape mood, ink-line delicacy, mineral color palette, moonlit r
 
 为什么火：东方留白审美稳定，社媒辨识度高。
 
+样图链接：
+- 原帖媒体： https://x.com/dotey/status/2047185615955918962
+
 ### 10) 城市街拍模板
 
 ```text
@@ -115,6 +142,9 @@ Full-body outdoor fashion street shot, natural daylight, realistic texture and m
 ```
 
 为什么火：简洁好改，适合日更博主。
+
+样图链接：
+- 原帖媒体： https://x.com/AIwithSarah_/status/2047234995627172229
 
 ## 场景建议
 
