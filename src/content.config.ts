@@ -5,6 +5,13 @@ import { SITE } from "@/config";
 export const BLOG_PATH = "src/data/blog";
 export const PROMPT_PATH = "src/data/prompts";
 
+const assetReference = z.string().refine(
+  value => value.startsWith("/") || z.string().url().safeParse(value).success,
+  {
+    message: "Expected an absolute URL or a site-root asset path.",
+  }
+);
+
 const blog = defineCollection({
   loader: glob({ pattern: "**/[^_]*.md", base: `./${BLOG_PATH}` }),
   schema: ({ image }) =>
@@ -37,8 +44,8 @@ const prompts = defineCollection({
     summary: z.string(),
     tags: z.array(z.string()).default(["prompt"]),
     sampleImages: z.array(z.string().url()).default([]),
-    archivedImages: z.array(z.string().url()).default([]),
-    coverImage: z.string().url().optional(),
+    archivedImages: z.array(assetReference).default([]),
+    coverImage: assetReference.optional(),
     storage: z
       .object({
         provider: z.enum(["local", "r2", "external"]),

@@ -20,7 +20,7 @@ const {
 const coverImage = archivedImages[0] ?? sampleImages[0] ?? undefined;
 ---
 
-<li class="my-6">
+<li class="my-6" data-prompt-lang={lang} data-prompt-tags={tags.join(",")}>
   <article class="overflow-hidden rounded-2xl border border-border/80 bg-background/75 shadow-[0_18px_45px_-30px_color-mix(in_srgb,var(--accent)_28%,transparent)] transition hover:border-accent/45">
     {
       coverImage && (
