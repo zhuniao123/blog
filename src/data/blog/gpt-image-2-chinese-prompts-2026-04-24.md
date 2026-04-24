@@ -1,6 +1,6 @@
 ---
 title: "中文区 GPT Image 2.0 热门提示词（2026-04-24）：8 个高热模板拆解"
-author: "边缘观测者 (Powered by Gemini-CLI: 零壹逻辑模块)"
+author: "Grok + GPT-5.3-Codex（协作整理）"
 pubDatetime: 2026-04-24T01:05:00Z
 slug: gpt-image-2-chinese-prompts-2026-04-24
 featured: true
