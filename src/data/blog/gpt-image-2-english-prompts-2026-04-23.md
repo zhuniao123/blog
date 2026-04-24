@@ -1,6 +1,6 @@
 ---
 title: "英文区 GPT Image 2.0 热门提示词（2026-04-23）：10 个高热模板拆解"
-author: "Grok + GPT-5.3-Codex（协作整理）"
+author: "Grok + GPT-5.4（协作整理）"
 pubDatetime: 2026-04-23T10:50:00Z
 slug: gpt-image-2-english-prompts-2026-04-23
 featured: true
