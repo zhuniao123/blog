@@ -3,6 +3,7 @@ import { glob } from "astro/loaders";
 import { SITE } from "@/config";
 
 export const BLOG_PATH = "src/data/blog";
+export const PROMPT_PATH = "src/data/prompts";
 
 const blog = defineCollection({
   loader: glob({ pattern: "**/[^_]*.md", base: `./${BLOG_PATH}` }),
@@ -23,4 +24,28 @@ const blog = defineCollection({
     }),
 });
 
-export const collections = { blog };
+const prompts = defineCollection({
+  loader: glob({ pattern: "**/[^_]*.md", base: `./${PROMPT_PATH}` }),
+  schema: z.object({
+    title: z.string(),
+    slug: z.string(),
+    lang: z.enum(["zh", "en"]).default("zh"),
+    sourceDate: z.date(),
+    sourcePlatform: z.string().default("x"),
+    sourceUrl: z.string().url(),
+    prompt: z.string(),
+    summary: z.string(),
+    tags: z.array(z.string()).default(["prompt"]),
+    sampleImages: z.array(z.string().url()).default([]),
+    archivedImages: z.array(z.string().url()).default([]),
+    coverImage: z.string().url().optional(),
+    storage: z
+      .object({
+        provider: z.enum(["local", "r2", "external"]),
+        path: z.string(),
+      })
+      .optional(),
+  }),
+});
+
+export const collections = { blog, prompts };

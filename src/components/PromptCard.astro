@@ -1,0 +1,57 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+type Props = {
+  prompt: CollectionEntry<"prompts">;
+};
+
+const { prompt } = Astro.props;
+const {
+  title,
+  summary,
+  tags,
+  lang,
+  sourcePlatform,
+  sourceDate,
+  archivedImages,
+  sampleImages,
+} = prompt.data;
+
+const coverImage = archivedImages[0] ?? sampleImages[0] ?? undefined;
+---
+
+<li class="my-6">
+  <article class="overflow-hidden rounded-2xl border border-border/80 bg-background/75 shadow-[0_18px_45px_-30px_color-mix(in_srgb,var(--accent)_28%,transparent)] transition hover:border-accent/45">
+    {
+      coverImage && (
+        <a href={`/prompts/${prompt.data.slug}/`} class="block border-b border-border/70">
+          <img
+            src={coverImage}
+            alt={title}
+            class="aspect-[16/9] w-full object-cover"
+            loading="lazy"
+          />
+        </a>
+      )
+    }
+    <div class="space-y-4 p-5">
+      <div class="flex flex-wrap items-center gap-2 text-sm opacity-80">
+        <span class="rounded-full border border-border px-2 py-1 uppercase">{lang}</span>
+        <span class="rounded-full border border-border px-2 py-1">{sourcePlatform}</span>
+        <span>{sourceDate.toISOString().slice(0, 10)}</span>
+      </div>
+      <div>
+        <a
+          href={`/prompts/${prompt.data.slug}/`}
+          class="inline-block text-xl font-semibold text-accent decoration-dashed underline-offset-4 hover:underline"
+        >
+          {title}
+        </a>
+        <p class="mt-2">{summary}</p>
+      </div>
+      <ul class="flex flex-wrap gap-2 text-sm">
+        {tags.map(tag => <li class="rounded-full bg-muted/70 px-3 py-1">#{tag}</li>)}
+      </ul>
+    </div>
+  </article>
+</li>

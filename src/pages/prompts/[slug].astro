@@ -1,0 +1,127 @@
+---
+import { getCollection, render, type CollectionEntry } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import BackButton from "@/components/BackButton.astro";
+import BackToTopButton from "@/components/BackToTopButton.astro";
+import { SITE } from "@/config";
+
+type Props = {
+  prompt: CollectionEntry<"prompts">;
+};
+
+export async function getStaticPaths() {
+  const prompts = await getCollection("prompts");
+  return prompts.map(prompt => ({
+    params: { slug: prompt.data.slug },
+    props: { prompt },
+  }));
+}
+
+const { prompt } = Astro.props;
+const { Content } = await render(prompt);
+const {
+  title,
+  summary,
+  prompt: promptText,
+  sourceUrl,
+  sourcePlatform,
+  sourceDate,
+  archivedImages,
+  sampleImages,
+  tags,
+} = prompt.data;
+
+const gallery = archivedImages.length > 0 ? archivedImages : sampleImages;
+---
+
+<Layout title={`${title} | Prompt Archive | ${SITE.title}`} description={summary}>
+  <Header />
+  <BackButton />
+  <main id="main-content" class="app-layout pb-12">
+    <div class="mt-8 flex flex-wrap items-center gap-3 text-sm opacity-80">
+      <span class="rounded-full border border-border px-3 py-1 uppercase">{prompt.data.lang}</span>
+      <span class="rounded-full border border-border px-3 py-1">{sourcePlatform}</span>
+      <time datetime={sourceDate.toISOString()}>{sourceDate.toISOString().slice(0, 10)}</time>
+    </div>
+
+    <h1 class="mt-4 inline-block text-3xl font-bold text-accent sm:text-4xl">{title}</h1>
+    <p class="mt-4 max-w-3xl text-lg opacity-90">{summary}</p>
+
+    <div class="mt-6 flex flex-wrap gap-3 text-sm">
+      <a
+        href={sourceUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="rounded-full border border-border bg-muted/70 px-4 py-2 text-accent decoration-dashed underline-offset-4 hover:underline"
+      >
+        查看原帖
+      </a>
+      <a
+        href="/prompts/"
+        class="rounded-full border border-border bg-background/75 px-4 py-2 hover:text-accent"
+      >
+        返回 Prompt Archive
+      </a>
+    </div>
+
+    <section class="mt-10 grid gap-4 rounded-3xl border border-border/80 bg-background/75 p-5 shadow-[0_18px_45px_-30px_color-mix(in_srgb,var(--accent)_30%,transparent)]">
+      <div>
+        <h2 class="text-2xl font-semibold">可复用 Prompt</h2>
+        <p class="mt-2 text-sm opacity-75">这部分是资产层，不是文章修辞层，重点是拿去改还能用。</p>
+      </div>
+      <pre class="overflow-x-auto rounded-2xl border border-border bg-muted/60 p-4 text-sm leading-7 whitespace-pre-wrap"><code>{promptText}</code></pre>
+    </section>
+
+    {
+      gallery.length > 0 && (
+        <section class="mt-10">
+          <div class="mb-4 flex items-end justify-between gap-4">
+            <div>
+              <h2 class="text-2xl font-semibold">样图归档</h2>
+              <p class="mt-2 text-sm opacity-75">
+                优先展示本地归档图；如果还没归档成功，就先回退到原始外链。
+              </p>
+            </div>
+            <div class="text-sm opacity-75">{archivedImages.length} / {sampleImages.length} 已归档</div>
+          </div>
+          <div class="grid gap-4 sm:grid-cols-2">
+            {gallery.map((imageUrl, index) => (
+              <figure class="overflow-hidden rounded-2xl border border-border/80 bg-background/75">
+                <img
+                  src={imageUrl}
+                  alt={`${title} 样图 ${index + 1}`}
+                  class="aspect-[4/3] w-full object-cover"
+                  loading="lazy"
+                />
+                <figcaption class="flex items-center justify-between gap-3 px-4 py-3 text-sm opacity-80">
+                  <span>样图 {index + 1}</span>
+                  <a
+                    href={sampleImages[index] ?? imageUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-accent decoration-dashed underline-offset-4 hover:underline"
+                  >
+                    原始链接
+                  </a>
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    <article class="app-prose mt-10 max-w-app">
+      <Content />
+    </article>
+
+    <ul class="mt-8 flex flex-wrap gap-3 text-sm">
+      {tags.map(tag => <li class="rounded-full bg-muted/70 px-3 py-1">#{tag}</li>)}
+    </ul>
+
+    <BackToTopButton />
+  </main>
+  <Footer />
+</Layout>

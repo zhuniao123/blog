@@ -9,6 +9,7 @@
     "preview": "astro preview",
     "sync": "astro sync",
     "astro": "astro",
+    "archive:prompts": "node scripts/archive-prompt-images.mjs",
     "format:check": "prettier --check .",
     "format": "prettier --write .",
     "lint": "eslint ."

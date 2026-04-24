@@ -1,0 +1,49 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Main from "@/layouts/Main.astro";
+import PromptCard from "@/components/PromptCard.astro";
+import { SITE } from "@/config";
+
+const prompts = await getCollection("prompts");
+const sortedPrompts = prompts.sort(
+  (a, b) => b.data.sourceDate.getTime() - a.data.sourceDate.getTime()
+);
+---
+
+<Layout
+  title={`Prompts | ${SITE.title}`}
+  description="独立于博客文章的 Prompt 素材归档页，保留来源、样图和本地归档。"
+>
+  <Header />
+  <Main
+    pageTitle="Prompt Archive"
+    pageDesc="这里放的是素材资产，不是评论文章。每条记录都尽量保留原始来源、可复用 prompt 和样图归档。"
+  >
+    <section class="mb-8 grid gap-4 rounded-3xl border border-border/80 bg-background/70 p-5 shadow-[0_18px_45px_-30px_color-mix(in_srgb,var(--accent)_30%,transparent)] sm:grid-cols-3">
+      <div>
+        <div class="text-3xl font-semibold text-accent">{sortedPrompts.length}</div>
+        <p class="mt-2 text-sm opacity-80">当前已结构化归档的 prompt 条目</p>
+      </div>
+      <div>
+        <div class="text-3xl font-semibold text-accent">
+          {sortedPrompts.reduce((count, prompt) => count + prompt.data.archivedImages.length, 0)}
+        </div>
+        <p class="mt-2 text-sm opacity-80">已归档到自有地址的样图数量</p>
+      </div>
+      <div>
+        <div class="text-3xl font-semibold text-accent">
+          {sortedPrompts.reduce((count, prompt) => count + prompt.data.sampleImages.length, 0)}
+        </div>
+        <p class="mt-2 text-sm opacity-80">当前登记的原始样图链接数量</p>
+      </div>
+    </section>
+
+    <ul>
+      {sortedPrompts.map(prompt => <PromptCard prompt={prompt} />)}
+    </ul>
+  </Main>
+  <Footer />
+</Layout>
