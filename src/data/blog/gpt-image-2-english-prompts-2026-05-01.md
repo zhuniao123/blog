@@ -13,18 +13,19 @@ tags:
 description: "Converted from inbox/20260501en.md with full source content preserved."
 ---
 
-## Source Inbox
+## What This Is (30-Second Read)
 
-- Source file: 20260501en.md
-- Conversion mode: full-content preservation
+This post is transformed from inbox intelligence into a reusable prompt brief, not just a heat snapshot.
+
+## Why It Is Worth Saving
+
+It keeps source links, prompt blocks, and image references together so you can remix faster.
 
 ---
+
 **GPT Image 2.0（ChatGPT Images 2.0 / gpt-image-2）过去20小时X上最火提示词Top 12**
-
 当前时间为2026年5月1日10:00 UTC，20小时窗口为2026-04-30 14:00 UTC起。经多轮x_keyword_search（Top/Latest + min_faves:20/50过滤 + 精确since:）和x_semantic_search + 高热度帖x_thread_fetch验证，仅筛选**完整可用提示词 + 生成图片 + 真实互动**的帖子。
-
 符合条件的优质帖共约12条（热度快速积累中，许多新帖互动仍在增长；早期病毒帖如“clumsy MS Paint”原帖已在窗口外）。以下按**热度分数 = likes + (reposts × 5) + (replies × 3)** 严格排序Top 12，均为过去20小时内真实分享。
-
 | 排名 | 原帖链接 | 完整提示词 | 图片样例 | 热度数据 (likes / reposts / replies) | 为什么火了 |
 |------|----------|------------|----------|-------------------------------------|------------|
 | 1 | [https://x.com/Ciri_ai/status/2050094437821513896](https://x.com/Ciri_ai/status/2050094437821513896) | ```Edit:disable-run
@@ -39,17 +40,39 @@ description: "Converted from inbox/20260501en.md with full source content preser
 | 10 | [https://x.com/SimplyAnnisa/status/2050115370242162830](https://x.com/SimplyAnnisa/status/2050115370242162830) | ```Automatically generate a collectible epic poster based on “Frieren: Beyond Journey’s End”... [完整Frieren剪影叙事海报prompt]``` | Frieren主题剪影海报 | 58 / 7 / 25 | 动漫IP剪影叙事+水彩风，收藏级海报模板，动漫圈高共鸣。 |
 | 11 | [https://x.com/john_my07/status/2050095828140978263](https://x.com/john_my07/status/2050095828140978263) | ```Ultra-detailed wide street art mural... [完整左右对比街头涂鸦mural prompt]``` | 街头涂鸦mural（healing vs deadline） | 44 / 5 / 31 | 左右情绪对比+涂鸦风格，生活压力治愈主题，情感共鸣强。 |
 | 12 | [https://x.com/Taaruk_/status/2050058481781428352](https://x.com/Taaruk_/status/2050058481781428352)（补充低分优质） | 完整卡通男孩/女孩prompt（已含） | 卡通角色海报 | 较低但完整 | 基础卡通模板，易改编。 |
-
 **趋势小结**  
 这12条提示词的共性极强：  
 - **高度结构化**：几乎都采用分段式（Composition / Style / Lighting / Exclusions / Render Pipeline），这是GPT Image 2.0当前最优遵循模式。  
 - **参考图像优先**：强调“keep original photo unchanged / preserve facial identity / based on attached photo”，充分利用模型图像编辑能力，而非纯text-to-image。  
 - **混合风格+实用场景**：real+cartoon混合、diorama微缩、商业海报、故事板、chibi手绘、剪影叙事等，覆盖品牌、励志、旅行、动漫、街头等高传播赛道。  
 - **视觉细节爆炸**：常用“cinematic lighting / shallow depth of field / 8K / ARRI Alexa / negative exclusions”等词，提升输出一致性和高端感。  
-
 **1-2个进化建议**（让效果更好）：  
 1. **强化Negative + Reference控制**：在已有prompt末尾追加“--no AI artifacts, plastic skin, distortion, text bleed, low-res; preserve exact face proportions and lighting from reference image”，可进一步减少畸变。  
 2. **添加精确参数+迭代链**：指定“aspect ratio 4:5 / 9:16 / square 1080x1080 + camera specs (50mm anamorphic, HDR)”并在生成后用“refine this image with...”进行第二轮迭代，能让商业/故事类输出更稳定、连贯。  
-
 当前GPT Image 2.0热度仍在快速爬升，未来24小时可能出现更多高分帖。需要特定赛道（例如纯商业、动漫、产品渲染）更多prompt可随时告诉我，我继续实时猎取！
 ```
+
+## How To Reuse (Copy Template)
+
+- Define subject and scene first.
+- Define style and lighting second.
+- Add composition constraints (ratio, framing, grid).
+- Add negative constraints (artifacts, text corruption, watermark).
+
+## Recommended Use Cases
+
+- Social post covers: prioritize clear focal subject and high contrast.
+- Campaign drafts: keep one variable changed per generation for A/B testing.
+- Storyboard workflows: lock ratio and camera language before style expansion.
+
+## Pitfalls To Avoid
+
+- Do not mix trend commentary with the final copy-ready prompt.
+- If a post says "full prompt in thread", publish with explicit source fallback.
+- Avoid model-agnostic parameter dumping; specify model assumptions.
+
+## Prompt Extraction Notes
+
+- Prompt units in this article are all code blocks and all "完整提示词 / Prompt" sections.
+- These units can be exported into prompt index files for later retrieval.
+

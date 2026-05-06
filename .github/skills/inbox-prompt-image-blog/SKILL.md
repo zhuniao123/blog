@@ -32,6 +32,10 @@ metadata:
   - 标题写“X 条/套”，正文必须完整展开 X 条/套；
   - 若仅展开 K 条，标题必须写“第 N 批：K 条/套”，并在文内声明全量样本数。
 6. 优先分批发布：单篇建议深度展开 3-5 条/套，避免“标题全量、正文摘要”。
+7. 每篇发布后必须可做 Prompt 提取：
+  - 至少能识别正文中的代码块提示词与“完整提示词/Prompt”段落；
+  - 提取结果必须包含来源文章、来源帖子链接、提示词正文、语言标签；
+  - 提取失败时必须记录失败原因（如“仅摘要无可复制正文”），不得静默跳过。
 
 ## 语气与风格
 
@@ -64,8 +68,25 @@ metadata:
    - 若包含多条条目，则按条目拆分成多篇。
    - 若用户明确“一个文件一篇”，则遵从用户指令。
 3. 生成文章并保存到 `src/data/blog/`。
-4. 清空已处理的 inbox 文件（保留 README）。
-5. 可选：提交并推送。
+4. 从新生成的文章中提取 prompts（代码块 + 明确提示词段落）并写入提取产物。
+5. 清空已处理的 inbox 文件（保留 README）。
+6. 可选：提交并推送。
+
+## Prompt 提取产物规范
+
+- 输出目录：`src/data/prompts/extracted/`
+- 文件命名：`<blog-slug>-prompts.md`
+- 每个提取文件必须包含：
+  - 源文章 slug 与链接
+  - 提取时间
+  - 提取条目列表（编号）
+  - 每条条目字段：
+    - `sourcePost`
+    - `language`
+    - `promptType`（`code-block` 或 `section-extract`）
+    - `promptText`（完整文本，禁止“略”或省略号占位）
+    - `imageRefs`（若存在）
+- 若文章无可提取 prompt，仍需生成文件并写明 `status: no-extractable-prompt` 与原因。
 
 ## 质量检查
 
@@ -77,7 +98,13 @@ metadata:
   - 若输入里有图片直链，输出必须保留直链，不得丢失。
   - 禁止输出“图片直链1/图片直链2/图片直链”等占位词。
   - 若输入无直链，必须写“原帖媒体：<tweet链接>”，不得留空。
+- Prompt 提取完整性校验：
+  - 提取条目数应与文章中可识别 prompt 单元数一致；
+  - 提取文件中的 `promptText` 必须可直接复制；
+  - 禁止把“热度分析/趋势点评”误提取为 prompt。
 
 ## 快速模板
 
 见 [examples/inbox-entry-template.md](examples/inbox-entry-template.md)。
+
+Prompt 提取模板见 [examples/blog-prompt-extraction-template.md](examples/blog-prompt-extraction-template.md)。
